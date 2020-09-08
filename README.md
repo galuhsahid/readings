@@ -11,6 +11,6 @@ The pdfs that I uploaded here are all annotated - however these are my personal 
 
 ## NLP
 - The Unreasonable Effectiveness of Recurrent Neural Networks [(annotated pdf)](karpathy-rnn.pdf) [(article)](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- Multilingual Multi-class Sentiment Classification Using Convolutional Neural Networks [(annotated pdf)](attia-sentiment-cnn.pdf) [(paper)](https://research.google/pubs/pub46932/)
 - NLP for supervised learning [(annotated pdf)](yan-nlp_for_supervised_learning.pdf) [(article)](https://eugeneyan.com/writing/nlp-supervised-learning-survey/)
 - Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) [(annotated pdf)](alammar-attention.pdf) [(article)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
-- Multilingual Multi-class Sentiment Classification Using Convolutional Neural Networks [(annotated pdf)](attia-sentiment-cnn.pdf) [(article)](https://research.google/pubs/pub46932/)

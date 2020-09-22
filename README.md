@@ -4,10 +4,12 @@ This repository hosts the papers/articles that I've read. I mostly read papers/a
 
 The pdfs that I uploaded here are all annotated - however these are my personal annotations so they might be unreadable. I'll always link to the original post/paper in case you want to check it out yourself (you should!).
 
-## General data
+## General
 - 150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com [(annotated pdf)](bernardi-booking.pdf) [(paper)](https://www.kdd.org/kdd2019/accepted-papers/view/150-successful-machine-learning-models-6-lessons-learned-at-booking.com)
 - Categorizing Variants of Goodhart's Law [(annotated pdf)](manheim-garrabrant_goodharts.pdf) [(paper)](https://arxiv.org/abs/1803.04585)
 - On Being a Data Skeptic [(annotated pdf)](oneil-data_skeptic.pdf) [(article)](https://www.oreilly.com/content/on-being-a-data-skeptic/)
+- The End of Moore's Law, CPUs (as we know them), and the Rise of Domain Specific Architectures [(annotated pdf)](hennessy-dsa.pdf) [(slides)](https://www.kisacoresearch.com/sites/default/files/presentations/09.00_-_alphabet_-_john_hennessy.pdf)
+- The Hardware Lottery [(annotated pdf)](hooker-hw_lottery.pdf) [(paper)](https://arxiv.org/abs/2009.06489)
 - What’s Keeping Women Out of Data Science? [(annotated pdf)](bcg-women_ds.pdf) [(article)](https://www.bcg.com/en-us/publications/2020/what-keeps-women-out-data-science)
 
 ## NLP

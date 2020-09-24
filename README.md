@@ -7,7 +7,9 @@ The pdfs that I uploaded here are all annotated - however these are my personal 
 ## General
 - 150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com [(annotated pdf)](bernardi-booking.pdf) [(paper)](https://www.kdd.org/kdd2019/accepted-papers/view/150-successful-machine-learning-models-6-lessons-learned-at-booking.com)
 - Categorizing Variants of Goodhart's Law [(annotated pdf)](manheim-garrabrant_goodharts.pdf) [(paper)](https://arxiv.org/abs/1803.04585)
+- Classifier calibration [(annotated pdf)](poulopoulos-calibration.pdf) [(article)](https://towardsdatascience.com/classifier-calibration-7d0be1e05452)
 - On Being a Data Skeptic [(annotated pdf)](oneil-data_skeptic.pdf) [(article)](https://www.oreilly.com/content/on-being-a-data-skeptic/)
+- Software 2.0 [(annotated pdf)]() [(article)](https://medium.com/@karpathy/software-2-0-a64152b37c35)
 - The End of Moore's Law, CPUs (as we know them), and the Rise of Domain Specific Architectures [(annotated pdf)](hennessy-dsa.pdf) [(slides)](https://www.kisacoresearch.com/sites/default/files/presentations/09.00_-_alphabet_-_john_hennessy.pdf)
 - The Hardware Lottery [(annotated pdf)](hooker-hw_lottery.pdf) [(paper)](https://arxiv.org/abs/2009.06489)
 - What’s Keeping Women Out of Data Science? [(annotated pdf)](bcg-women_ds.pdf) [(article)](https://www.bcg.com/en-us/publications/2020/what-keeps-women-out-data-science)

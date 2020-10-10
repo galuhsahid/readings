@@ -1,10 +1,16 @@
 # readings
-
-This repository hosts the papers/articles that I've read. I mostly read papers/articles about data though I cannot promise to not read other things too :) 
+List of (mostly) data-related books & papers/articles that I've read.
 
 The pdfs that I uploaded here are all annotated - however these are my personal annotations so they might be unreadable. I'll always link to the original post/paper in case you want to check it out yourself (you should!).
 
-## General
+## books
+- [**Artificial Intelligence: A Guide for Thinking Humans:**](https://www.goodreads.com/book/show/43565360-artificial-intelligence) how did AI come about in the first place? Where are we now with AI? How far away are we from AGI? I read this in the middle of the GPT-3 hype & it was truly a sobering read. 
+- [**Build a Career in Data Science:**](https://www.goodreads.com/book/show/52661559-build-a-career-in-data-science) recommended read if you: are looking to break into the data science field or are already in the field but wondering what the possible career path(s) are like.
+- [**The Effective Engineer:**](https://www.goodreads.com/book/show/25238425-the-effective-engineer) not about data, so not 100% of the examples are probably relatable, but this book really helps me to think about how I can be an effective data scientist.
+- [**Thinking with Data:**](https://www.goodreads.com/book/show/20344187-thinking-with-data) This book contains everything you need to know about working on data projects that does not have anything to do with algorithms etc. If you're not yet comfortable with topics like scoping, project management, dealing with stakeholders---this book is for you. I think anyone who wants to be a good data practitioner beyond fitting models should definitely read this book cover-to-cover. You can also read my reading notes [here](https://galuh.me/reading-notes-data/).
+
+## articles/papers
+### general
 - **150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com [(annotated pdf)](bernardi-booking.pdf) [(paper)](https://www.kdd.org/kdd2019/accepted-papers/view/150-successful-machine-learning-models-6-lessons-learned-at-booking.com):** Lessons learned from ML models deployed at Booking.com. Some of the most memorable examples (to me) are around monitoring & experiment design. The examples are mostly skewed towards features you can find in Booking.com e.g. hotel/destination recommendations.
 - **Classifier calibration [(annotated pdf)](poulopoulos-calibration.pdf) [(article)](https://towardsdatascience.com/classifier-calibration-7d0be1e05452):** Classifier calibration 101. What is it, why do we calibrate models, why & when to use it.
 - **On Being a Data Skeptic [(annotated pdf)](oneil-data_skeptic.pdf) [(article)](https://www.oreilly.com/content/on-being-a-data-skeptic/):** a timeless read. This is from 2013 but many, if not all points, are still relevant today. A mandatory reading for all data practicioners IMO.
@@ -13,13 +19,13 @@ The pdfs that I uploaded here are all annotated - however these are my personal 
 - **The Hardware Lottery [(annotated pdf)](hooker-hw_lottery.pdf) [(paper)](https://arxiv.org/abs/2009.06489):** this paper discusses that throughout history, hardware & software have frequently determined which research ideas succeed. This is even more worrisome when we take into account the fact that we're moving towards Domain Specific Architectures (DSA); the implication would be that some research directions (the ones with DSAs available/DSAs that are commercially viable) will prevail while other research directions that have potential (& can even possibly be better given the chance), yet are not supported by existing DSAs might be left behind.
 - **What’s Keeping Women Out of Data Science? [(annotated pdf)](bcg-women_ds.pdf) [(article)](https://www.bcg.com/en-us/publications/2020/what-keeps-women-out-data-science):** findings include a) women seek for clear information of what the day-to-day job is really like; b) women also seek for more opportunities with actual practicioners, because they're looking for a direct feel of the ways of working, degree of collaboration, personalities which cannot be conveyed through corporate slideshows. I think this further emphasizes why representation is very important.
 
-## Metrics
+### metrics
 - **Categorizing Variants of Goodhart's Law [(annotated pdf)](manheim-garrabrant_goodharts.pdf) [(paper)](https://arxiv.org/abs/1803.04585):** one of the papers/work I can find that touch on the relation between Goodhart's Law & ML/AI. The paper explores 4 types of Goodhart's Law: Regressional Goodhart, Extremal Goodhart, Causal Goodhart, & Adversarial Goodhart. 
 - **Designing and evaluating metrics [(annotated pdf)](taylor-design_eval_metrics.pdf) [(article)](https://medium.com/@seanjtaylor/designing-and-evaluating-metrics-5902ad6873bf):** this article explores the five properties of metrics to keep in mind when designing a metric (Cost, Simplicity, Faithfulness, Precision, & Causal Proximity) & lifecycle of a metric.
 - **How do you set metrics? [(annotated pdf)](zhuo-how_to_set_metrics.pdf) [(article)](https://medium.com/the-year-of-the-looking-glass/how-do-you-set-metrics-59f78fea7e44):** pretty self-explanatory. One of my key takeaways is: "start with a plain-language statement about what a successful outcome would look like in human terms" & then go from there. Other takeaways include: track counter-metrics, avoid having too many metrics, understand the dynamic between metrics, avoid vanity metrics.
 - **Metrics Versus Experience [(annotated pdf)](zhuo-metrics_exp.pdf) [(article)](https://medium.com/the-year-of-the-looking-glass/metrics-versus-experience-a9347d6b80b):** some points overlap with the ones discussed in *How do you set metrics?*. Main takeaway is it's not metrics vs experience. Metrics are helpful, the question is how do we design good metrics?
 
-## NLP
+### NLP
 - **Abusive Language Detection in Online User Content [(annotated pdf)](nobata-abusive-lang-detection.pdf) [(paper)](http://www.yichang-cs.com/yahoo/WWW16_Abusivedetection.pdf):** abusive language classification problem. Best result uses character n-grams (also beats deep learning approach.)
 - **Deep Learning Based Text Classification: A Comprehensive Review [(annotated pdf)](minaee-text-dl.pdf) [(paper)](https://arxiv.org/abs/2004.03705):** A survey of more than 150 deep learning models & +40 text classification datasets. There's also a quantitative analysis of the performance of these models on several datasets.
 - **The Unreasonable Effectiveness of Recurrent Neural Networks [(annotated pdf)](karpathy-rnn.pdf) [(article)](http://karpathy.github.io/2015/05/21/rnn-effectiveness/):** Primer to RNNs & how they work. Recommended reading if you haven't learned RNN before but want to delve into recent NLP surveys; most will definitely talk about RNN & it's helpful to know how RNNs work & their shortcomings.
@@ -27,3 +33,4 @@ The pdfs that I uploaded here are all annotated - however these are my personal 
 - **NLP for supervised learning [(annotated pdf)](yan-nlp_for_supervised_learning.pdf) [(article)](https://eugeneyan.com/writing/nlp-supervised-learning-survey/):** Recommended if you need to catch up with all of the progress going on in (supervised learning) NLP so far.
 - **The Illustrated Transformer [(annotated pdf)](alammar-transformers.pdf) [(article)](http://jalammar.github.io/illustrated-transformer/):** Have trouble understanding how transformers work? This article (& especially its illustrations) will make it easier for you to understand how it works.
 - **Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) [(annotated pdf)](alammar-attention.pdf) [(article)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/):** I found Attention quite difficult to visualize when I'm just reading words on a paper. Recommended if you're a visual learner & want to delve deep into how attentions work.
+
